@@ -1,11 +1,15 @@
 
 import "./App.css";
+import Component from "./componets/Componet";
 
 function App() {
 
 
-  return <>
-  hello</>;
+  return (
+    <>
+    <Component />
+    </>
+  )
 }
 
 export default App;
